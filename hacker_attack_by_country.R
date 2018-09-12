@@ -29,5 +29,5 @@ ggplot( data = php_reqs, aes(x = php_reqs$Var1, y = php_reqs$Freq)) + geom_bar(s
   xlab('Country with .php in request') + ylab('Count') + 
   theme(axis.text.x = element_text(color = "black", size = 8, angle = 45),  axis.text.y = element_text(color = "black", size=8, angle=45))
 
-#ggsave("plot_php_count.png", width = 15, height = 15)
+ggsave("plot_php_hacker_by_country.png", width = 15, height = 15)
 
