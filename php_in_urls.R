@@ -3,6 +3,8 @@
 
 library(ggplot2)
 library(stringr)
+library(stringi)
+library(rebus)
 #access.log is required to be included int eh same directory
 df = read.table('access.log')
 #head(df)

@@ -1,7 +1,7 @@
 #What were the most popular URLS
 library(ggplot2)
 library(dplyr)
-
+library(plyr)
 df = read.table('access.log')
 #head(df)
 colnames(df) = c('ip_address', 'nameless_v2', 'nameless_v3', 'date', 'nameless_v5', 'request', 'status', 'bytes', 'url', 'browser_specs')
